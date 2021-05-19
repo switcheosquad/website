@@ -1,0 +1,38 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "cd dist && surge .",
+    "lint:js": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-3",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.8"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.2.0",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "postcss": "^8.2.15",
+    "prettier": "^2.3.0",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.3.3"
+  }
+}
