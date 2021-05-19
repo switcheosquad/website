@@ -6,12 +6,27 @@
 
 You can access it at https://switcheosquad.com.
 
-## Building Stakeo
+## Building the website
 
 ### Requirements
 
 * Node.js 14
 * [Font Awesome Pro](https://fontawesome.com/plans)
+
+### Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# generate static project
+$ npm run build
+```
+
+For detailed explanation on how things work, check out [Vite docs](https://vitejs.dev/guide/).
 
 ## Contributing to this project
 
