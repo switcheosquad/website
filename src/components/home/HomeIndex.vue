@@ -166,7 +166,18 @@
     </div>
 
     <!-- Content Section -->
-    <div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+    <div
+      class="
+        py-16
+        xl:py-36
+        px-4
+        sm:px-6
+        lg:px-8
+        bg-white
+        dark:bg-gray-800
+        overflow-hidden
+      "
+    >
       <div class="max-w-max lg:max-w-7xl mx-auto">
         <div class="relative z-10 mb-8 md:mb-2 md:px-6">
           <div class="text-base max-w-prose lg:max-w-none">
@@ -174,6 +185,7 @@
               class="
                 leading-6
                 text-cyan-600
+                dark:text-cyan-300
                 font-semibold
                 tracking-wide
                 uppercase
@@ -189,6 +201,7 @@
                 font-extrabold
                 tracking-tight
                 text-gray-900
+                dark:text-gray-300
                 sm:text-4xl
               "
             >
@@ -219,7 +232,7 @@
                   y="0"
                   width="4"
                   height="4"
-                  class="text-gray-200"
+                  class="text-gray-200 dark:text-gray-500"
                   fill="currentColor"
                 />
               </pattern>
@@ -252,7 +265,7 @@
                   y="0"
                   width="4"
                   height="4"
-                  class="text-gray-200"
+                  class="text-gray-200 dark:text-gray-500"
                   fill="currentColor"
                 />
               </pattern>
@@ -263,10 +276,17 @@
               fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)"
             />
           </svg>
-          <div class="relative md:bg-white md:p-6">
+          <div class="relative md:bg-white md:dark:bg-gray-800 md:p-6">
             <div class="lg:grid lg:grid-cols-2 lg:gap-6">
               <div
-                class="prose prose-cyan prose-lg text-gray-500 lg:max-w-none"
+                class="
+                  prose prose-cyan
+                  dark:prose-cyan-light
+                  prose-lg
+                  text-gray-500
+                  dark:text-gray-400
+                  lg:max-w-none
+                "
               >
                 <p>
                   We are fanatics of all things decentralized. We are advocates
@@ -289,7 +309,17 @@
                   >.
                 </p>
               </div>
-              <div class="mt-6 prose prose-cyan prose-lg text-gray-500 lg:mt-0">
+              <div
+                class="
+                  mt-6
+                  prose prose-cyan
+                  dark:prose-cyan-light
+                  prose-lg
+                  text-gray-500
+                  dark:text-gray-400
+                  lg:mt-0
+                "
+              >
                 <p>
                   We need volunteer content creators
                   <em>(both technical and non)</em>, promoters, artists and

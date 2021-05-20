@@ -2,7 +2,7 @@
   <metainfo>
     <template #title="{ content }">{{ content }}</template>
   </metainfo>
-  <div class="bg-white">
+  <div>
     <div class="relative overflow-hidden">
       <page-header />
       <router-view />

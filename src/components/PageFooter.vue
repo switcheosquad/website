@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-50">
+  <footer class="bg-gray-50 dark:bg-gray-900">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav
         class="-mx-5 -my-2 flex flex-wrap justify-center"
@@ -8,7 +8,12 @@
         <div v-for="item in navigation" :key="item.name" class="px-5 py-2">
           <router-link
             :to="item.to"
-            class="text-base text-gray-500 hover:text-gray-900"
+            class="
+              text-base text-gray-500
+              hover:text-gray-900
+              dark:text-gray-400
+              dark:hover:text-gray-500
+            "
             >{{ item.name }}</router-link
           >
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-white py-16 sm:py-24 lg:py-32">
+  <div class="relative bg-white dark:bg-gray-800 py-16 sm:py-24 lg:py-32">
     <div
       class="
         mx-auto
@@ -13,7 +13,14 @@
       "
     >
       <h2
-        class="text-base font-semibold tracking-wider text-cyan-600 uppercase"
+        class="
+          text-base
+          font-semibold
+          tracking-wider
+          text-cyan-600
+          dark:text-cyan-400
+          uppercase
+        "
       >
         Key Features
       </h2>
@@ -23,20 +30,31 @@
           text-3xl
           font-extrabold
           text-gray-900
+          dark:text-gray-300
           tracking-tight
           sm:text-4xl
         "
       >
         Promote the platform you're invested in
       </p>
-      <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+      <p
+        class="
+          mt-5
+          max-w-prose
+          mx-auto
+          text-xl text-gray-500
+          dark:text-gray-400
+        "
+      >
         Convincing traders to move platforms is a tough task, but these key
         features can be used as a tool to educate and inform.
       </p>
       <div class="mt-12">
         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div v-for="feature in features" :key="feature.name" class="pt-6">
-            <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+            <div
+              class="flow-root bg-gray-50 dark:bg-gray-900 rounded-lg px-6 pb-8"
+            >
               <div class="-mt-6">
                 <div>
                   <span
@@ -61,11 +79,18 @@
                   </span>
                 </div>
                 <h3
-                  class="mt-8 text-lg font-medium text-gray-900 tracking-tight"
+                  class="
+                    mt-8
+                    text-lg
+                    font-medium
+                    text-gray-900
+                    dark:text-gray-300
+                    tracking-tight
+                  "
                 >
                   {{ feature.name }}
                 </h3>
-                <p class="mt-5 text-base text-gray-500">
+                <p class="mt-5 text-base text-gray-500 dark:text-gray-400">
                   {{ feature.description }}
                 </p>
               </div>
