@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
+import { createMetaManager } from "vue-meta";
 import "./index.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -40,5 +41,6 @@ library.add(
 
 createApp(App)
   .use(router)
+  .use(createMetaManager())
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");

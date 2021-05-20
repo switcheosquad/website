@@ -85,7 +85,14 @@
 </template>
 <script>
 import CtaNewsletter from "../shared/CtaNewsletter.vue";
+import { useMeta } from "vue-meta";
+
 export default {
   components: { CtaNewsletter },
+  setup() {
+    useMeta({
+      title: "Swag",
+    });
+  },
 };
 </script>

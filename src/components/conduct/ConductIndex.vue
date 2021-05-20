@@ -195,3 +195,15 @@
     </div>
   </main>
 </template>
+
+<script>
+import { useMeta } from "vue-meta";
+
+export default {
+  setup() {
+    useMeta({
+      title: "Code of Conduct",
+    });
+  },
+};
+</script>
