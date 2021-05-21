@@ -85,6 +85,7 @@
             rounded-lg
             shadow-md
             bg-white
+            dark:bg-gray-800
             ring-1 ring-black ring-opacity-5
             overflow-hidden
           "
@@ -101,6 +102,7 @@
               <PopoverButton
                 class="
                   bg-white
+                  dark:bg-gray-900
                   rounded-md
                   p-2
                   inline-flex
@@ -131,7 +133,9 @@
                   text-base
                   font-medium
                   text-gray-900
+                  dark:text-gray-100
                   hover:bg-gray-50
+                  dark:hover:bg-gray-900
                 "
                 >{{ item.name }}</router-link
               >
