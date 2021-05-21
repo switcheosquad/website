@@ -92,7 +92,7 @@
     </div>
 
     <!-- CTA Section -->
-    <cta-newsletter />
+    <cta-newsletter class="relative" />
   </main>
 </template>
 <script>

@@ -168,6 +168,7 @@
     <!-- Content Section -->
     <div
       class="
+        relative
         py-16
         xl:py-36
         px-4
