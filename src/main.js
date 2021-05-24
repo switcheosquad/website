@@ -16,6 +16,7 @@ import {
   faUserSecret,
 } from "@fortawesome/pro-solid-svg-icons";
 import {
+  faDiscord,
   faFacebook,
   faGithub,
   faInstagram,
@@ -28,6 +29,7 @@ library.add(
   faBars,
   faBalanceScale,
   faCube,
+  faDiscord,
   faExternalLink,
   faFacebook,
   faGithub,

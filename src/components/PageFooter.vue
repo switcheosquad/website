@@ -73,6 +73,11 @@ const social = [
     href: "https://github.com/switcheosquad",
     icon: ["fab", "github"],
   },
+  {
+    name: "Discord",
+    href: "https://discord.gg/SPh62Hf",
+    icon: ["fab", "discord"],
+  },
 ];
 
 export default {
