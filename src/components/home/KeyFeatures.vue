@@ -134,6 +134,12 @@ const features = [
       "All trading activity is recorded transparently on the blockchain and order execution is randomized to prevent front-running.",
     icon: ["fas", "cube"],
   },
+  {
+    name: "Liquidity Mining",
+    description:
+      "Anyone can be a market-maker using TradeHub liquidity pools. Put your extra cypto to work and earn rewards from trading fees.",
+    icon: ["fas", "money-bill-wave-alt"],
+  },
 ];
 
 export default {
