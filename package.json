@@ -14,9 +14,9 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/pro-solid-svg-icons": "^5.15.3",
-    "@fortawesome/vue-fontawesome": "^3.0.0-3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
     "vue": "^3.0.5",
-    "vue-meta": "^3.0.0-alpha.6",
+    "vue-meta": "^3.0.0-alpha.7",
     "vue-router": "^4.0.8"
   },
   "devDependencies": {
@@ -27,11 +27,11 @@
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^10.2.5",
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.9.0",
-    "postcss": "^8.2.15",
+    "postcss": "^8.3.0",
     "prettier": "^2.3.0",
     "tailwindcss": "^2.1.2",
     "vite": "^2.3.3"
