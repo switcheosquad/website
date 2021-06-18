@@ -111,7 +111,9 @@
                   text-gray-400
                   hover:bg-gray-100
                   focus:outline-none
-                  focus:ring-2 focus:ring-inset focus:ring-cyan-600
+                  focus:ring-2
+                  focus:ring-inset
+                  focus:ring-cyan-600
                 "
               >
                 <span class="sr-only">Close menu</span>

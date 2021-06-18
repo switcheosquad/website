@@ -6,9 +6,7 @@
         bg-white
         dark:bg-gray-800
         sm:pt-16
-        lg:pt-8
-        lg:pb-14
-        lg:overflow-hidden
+        lg:pt-8 lg:pb-14 lg:overflow-hidden
       "
     >
       <div class="mx-auto max-w-7xl lg:px-8">
@@ -18,13 +16,8 @@
               mx-auto
               max-w-md
               px-4
-              sm:max-w-2xl
-              sm:px-6
-              sm:text-center
-              lg:px-0
-              lg:text-left
-              lg:flex
-              lg:items-center
+              sm:max-w-2xl sm:px-6 sm:text-center
+              lg:px-0 lg:text-left lg:flex lg:items-center
             "
           >
             <div class="lg:py-24">
@@ -36,8 +29,7 @@
                   font-extrabold
                   text-gray-900
                   dark:text-gray-300
-                  sm:mt-5
-                  sm:text-6xl
+                  sm:mt-5 sm:text-6xl
                   lg:mt-6
                   xl:text-6xl
                 "
@@ -49,8 +41,7 @@
                   mt-3
                   text-base text-gray-500
                   dark:text-gray-400
-                  sm:mt-5
-                  sm:text-xl
+                  sm:mt-5 sm:text-xl
                   lg:text-lg
                   xl:text-xl
                 "
@@ -66,10 +57,8 @@
                 mx-auto
                 max-w-md
                 px-4
-                sm:max-w-2xl
-                sm:px-6
-                lg:max-w-none
-                lg:px-0
+                sm:max-w-2xl sm:px-6
+                lg:max-w-none lg:px-0
               "
             >
               <img

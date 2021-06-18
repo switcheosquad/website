@@ -7,11 +7,8 @@
           mx-auto
           py-16
           px-4
-          sm:py-24
-          sm:px-6
-          lg:px-8
-          lg:flex
-          lg:justify-between
+          sm:py-24 sm:px-6
+          lg:px-8 lg:flex lg:justify-between
         "
       >
         <div class="max-w-xl">
@@ -20,8 +17,7 @@
               text-4xl
               font-extrabold
               text-gray-900
-              sm:text-5xl
-              sm:tracking-tight
+              sm:text-5xl sm:tracking-tight
               lg:text-6xl
             "
           >

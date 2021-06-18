@@ -8,13 +8,8 @@
               mx-auto
               max-w-md
               px-4
-              sm:max-w-2xl
-              sm:px-6
-              sm:text-center
-              lg:px-0
-              lg:text-left
-              lg:flex
-              lg:items-center
+              sm:max-w-2xl sm:px-6 sm:text-center
+              lg:px-0 lg:text-left lg:flex lg:items-center
             "
           >
             <div class="lg:py-24">
@@ -25,8 +20,7 @@
                   tracking-tight
                   font-extrabold
                   text-white
-                  sm:mt-5
-                  sm:text-6xl
+                  sm:mt-5 sm:text-6xl
                   lg:mt-6
                   xl:text-6xl
                 "
@@ -47,8 +41,7 @@
                 class="
                   mt-3
                   text-base text-gray-300
-                  sm:mt-5
-                  sm:text-xl
+                  sm:mt-5 sm:text-xl
                   lg:text-lg
                   xl:text-xl
                 "
@@ -109,8 +102,7 @@
                           to-cyan-600
                           text-white
                           font-medium
-                          hover:from-teal-600
-                          hover:to-cyan-700
+                          hover:from-teal-600 hover:to-cyan-700
                           focus:outline-none
                           focus:ring-2
                           focus:ring-offset-2
@@ -140,10 +132,8 @@
                 mx-auto
                 max-w-md
                 px-4
-                sm:max-w-2xl
-                sm:px-6
-                lg:max-w-none
-                lg:px-0
+                sm:max-w-2xl sm:px-6
+                lg:max-w-none lg:px-0
               "
             >
               <img

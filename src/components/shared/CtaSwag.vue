@@ -6,10 +6,7 @@
         h-56
         bg-cyan-600
         sm:h-72
-        md:absolute
-        md:left-0
-        md:h-full
-        md:w-1/2
+        md:absolute md:left-0 md:h-full md:w-1/2
       "
     >
       <img
@@ -30,12 +27,9 @@
         max-w-md
         px-4
         py-12
-        sm:max-w-7xl
-        sm:px-6
-        sm:py-20
+        sm:max-w-7xl sm:px-6 sm:py-20
         md:py-28
-        lg:px-8
-        lg:py-32
+        lg:px-8 lg:py-32
       "
     >
       <div class="md:ml-auto md:w-1/2 md:pl-10">

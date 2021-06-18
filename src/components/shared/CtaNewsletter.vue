@@ -7,10 +7,7 @@
         py-12
         px-4
         sm:px-6
-        lg:py-16
-        lg:px-8
-        lg:flex
-        lg:items-center
+        lg:py-16 lg:px-8 lg:flex lg:items-center
       "
     >
       <div class="lg:w-0 lg:flex-1">
@@ -76,8 +73,7 @@
                 bg-gradient-to-r
                 from-teal-500
                 to-cyan-600
-                hover:from-teal-600
-                hover:to-cyan-700
+                hover:from-teal-600 hover:to-cyan-700
                 focus:outline-none
                 focus:ring-2
                 focus:ring-offset-2
