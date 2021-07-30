@@ -57,8 +57,10 @@
         </p>
         <div class="mt-8">
           <div class="inline-flex rounded-md shadow">
-            <router-link
-              :to="{ name: 'swag' }"
+            <a
+              href="https://switcheoverse.com"
+              target="_blank"
+              rel="noopener"
               class="
                 inline-flex
                 items-center
@@ -79,7 +81,7 @@
                 :icon="['fas', 'external-link']"
                 class="-mr-1 ml-3 text-gray-400"
               />
-            </router-link>
+            </a>
           </div>
         </div>
       </div>

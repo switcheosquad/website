@@ -39,7 +39,7 @@
 
 <script>
 const navigation = [
-  { name: "Swag", to: { name: "swag" } },
+  // { name: "Swag", to: { name: "swag" } },
   // { name: "Resources", to: { name: "resources" } },
   // { name: "Sponsors", to: { name: "sponsors" } },
   { name: "Code of Conduct", to: { name: "conduct" } },

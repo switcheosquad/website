@@ -54,6 +54,14 @@
               class="text-base font-medium text-white hover:text-gray-300"
               >{{ item.name }}</router-link
             >
+            <a
+              href="https://switcheoverse.com"
+              target="_blank"
+              rel="noopener"
+              class="text-base font-medium text-white hover:text-gray-300"
+              >Switcheoverse
+              <font-awesome-icon :icon="['fas', 'external-link']"
+            /></a>
           </div>
         </div>
       </nav>
@@ -153,7 +161,7 @@
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
 
 const navigation = [
-  { name: "Swag", to: { name: "swag" } },
+  // { name: "Swag", to: { name: "swag" } },
   // { name: "Resources", to: { name: "resources" } },
   // { name: "Sponsors", to: { name: "sponsors" } },
 ];
