@@ -1,6 +1,6 @@
 # Switcheo Squad
 
-> A community effort to promote products & services powered by Switcheo TradeHub.
+> A community effort to promote products & services powered by Carbon.
 
 ![GitHub](https://img.shields.io/github/license/switcheosquad/website)
 
