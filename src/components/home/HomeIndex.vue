@@ -47,7 +47,7 @@
                 "
               >
                 A community effort to promote products &amp; services powered by
-                Switcheo TradeHub.
+                Carbon.
               </p>
               <div class="mt-10 sm:mt-12">
                 <form
@@ -286,8 +286,7 @@
                   <a href="https://switcheo.com" target="_blank" rel="noopener"
                     >Switcheo Ecosystem</a
                   >. We are Switcheo Squad, and we are leading a community
-                  effort to promote products and services powered by Switcheo
-                  TradeHub.
+                  effort to promote products and services powered by Carbon.
                 </p>
                 <p>
                   Switcheo Squad is comprised of community members who are

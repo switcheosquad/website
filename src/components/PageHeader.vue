@@ -55,6 +55,13 @@
               >{{ item.name }}</router-link
             >
             <a
+              href="https://carbon.network"
+              target="_blank"
+              rel="noopener"
+              class="text-base font-medium text-white hover:text-gray-300"
+              >Carbon <font-awesome-icon :icon="['fas', 'external-link']"
+            /></a>
+            <a
               href="https://switcheoverse.com"
               target="_blank"
               rel="noopener"

@@ -29,16 +29,16 @@
         >
           <p>
             Switcheo Squad is not affiliated, associated, authorized, endorsed
-            by, or in any way officially connected with Switcheo Exchange Pte.
-            Ltd., or any of its subsidiaries or its affiliates. The official
-            Switcheo website can be found at
+            by, or in any way officially connected with Switcheo Labs Pte. Ltd.,
+            or any of its subsidiaries or its affiliates. The official Switcheo
+            website can be found at
             <a href="https://www.switcheo.com" target="_blank" rel="noopener"
               >https://www.switcheo.com</a
             >.
           </p>
           <p>
-            The names Switcheo, TradeHub and Demex as well as related names,
-            marks, emblems and images are registered trademarks of their
+            The names Switcheo, Carbon, Demex and ZilSwap as well as related
+            names, marks, emblems and images are registered trademarks of their
             respective owners.
           </p>
         </div>

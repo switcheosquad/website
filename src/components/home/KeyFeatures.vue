@@ -135,7 +135,7 @@ const features = [
   {
     name: "Liquidity Mining",
     description:
-      "Anyone can be a market-maker using TradeHub liquidity pools. Put your extra cypto to work and earn rewards from trading fees.",
+      "Anyone can be a market-maker using Carbon liquidity pools. Put your extra cypto to work and earn rewards from trading fees.",
     icon: ["fas", "money-bill-wave-alt"],
   },
 ];
