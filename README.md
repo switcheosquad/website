@@ -10,7 +10,7 @@ You can access it at https://switcheosquad.com.
 
 ### Requirements
 
-* Node.js 14
+* Node.js 16
 * [Font Awesome Pro](https://fontawesome.com/plans)
 
 ### Build Setup
