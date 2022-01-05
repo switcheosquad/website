@@ -62,11 +62,11 @@ const social = [
   //   href: "#",
   //   icon: ["fab", "instagram"],
   // },
-  // {
-  //   name: "Twitter",
-  //   href: "#",
-  //   icon: ["fab", "twitter"],
-  // },
+  {
+    name: "Twitter",
+    href: "https://twitter.com/switcheosquad",
+    icon: ["fab", "twitter"],
+  },
   {
     name: "GitHub",
     href: "https://github.com/switcheosquad",
